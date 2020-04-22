@@ -45,7 +45,7 @@ public class ProductOrderDetails {
 	
 	
 	@OneToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "supplier_id")
+	@JoinColumn(name = "distributor_id")
 	private DistributorDetails distributordetails;
 	
 	public double getPrice_per_unit() {
