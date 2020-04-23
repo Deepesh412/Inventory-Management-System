@@ -29,7 +29,6 @@ public class SupplierDetails {
 		RMorderdetails = rMorderdetails;
 	}
 	
-	
 	public int getS_id() {
 		return s_id;
 	}

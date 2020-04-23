@@ -27,8 +27,7 @@ public class RawMaterialOrderDetails {
 
 	private double price_per_unit;
 	
-
-	private double total_price;
+    private double total_price;
 	
 
 	private Date order_date;
