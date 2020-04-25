@@ -43,13 +43,7 @@ public class SupplierServiceImpl implements SupplierService{
 		return dao.updateSupplier(s);
 	}
 	
-	/*@Override
-	public Boolean loginUser(Userdata u) {
-		// TODO Auto-generated method stub
-		return dao.loginUser(u);
-	} */
-
-}
+	}
 
 
 	

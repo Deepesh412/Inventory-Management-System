@@ -58,30 +58,4 @@ public class SupplierDaoImpl implements SupplierDao {
 		}
 		return sd;
 }
-	
-}	
-	
-	
-/*	@Override
-	public Boolean loginUser(Userdata u) 
-	{
-		Query q = em.createQuery("select m from Userdata m where m.username=?1 and m.userPassword=?2");
-		String a = u.getUsername();
-		String b = u.getUserPassword();
-		q.setParameter(1, a);
-		q.setParameter(2, b);
-		try
-		{
-            Userdata m = (Userdata)q.getSingleResult();
-            return true;
-		}catch(javax.persistence.NoResultException e)
-		{
-			e.printStackTrace();
-		}
-		return false;
-	}
 }
-
-
-*/
-
